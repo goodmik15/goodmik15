@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans&display=swap');
+
+html {
+    background-color: #ffffff;
+}
+header, footer {
+    background-color: #47178c;
+    border-radius: 25px;
+}
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    max-width: 960px;
+    margin: 0 auto;
+    color: #444444;
+    padding: 25px;
+}
+h1, h2 {
+    font-family: 'Bree Serif', serif;
+}
+h1 {
+    color: #e8eadf;
+    font-size: 50px;
+}
+h2 {
+    color: #000000;
+    font-size: 32px;
+    border-bottom: 2px solid #444;
+}
+li a {
+    color: #4d40a3;
+}
+li a:hover {
+    color: #9ca7c3;
+}
+/*a:visited {
+    color: #d8b7a8;
+}*/
+
+#hg_box1 {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    margin-right: 200px;
+    padding: 1em;
+}
+#hg_box2 {
+    border-radius: 25px;
+    box-shadow: 0px 0px 25px #444444;
+    float: right;
+    margin-right: 1em;
+    margin-top: -10.5em;
+}
+
+footer {
+    color: #e8eadf;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+footer a {
+    color: #e8eadf;
+}
+footer a:hover {
+    color: #9ca7c3;
+}
+#footer_grid_container {
+    text-align: center;
+    line-height: .5em;
+}
+#fg_box1 {
+    font-size: .9em;
+    color: #9ca7c3;
+}
