@@ -13,7 +13,7 @@ footer {
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 115%;
     max-width: 960px;
     margin: 0 auto;
     color: #444444;
@@ -27,12 +27,12 @@ h2 {
 
 h1 {
     color: #e8eadf;
-    font-size: 50px;
+    font-size: 2.2em;
 }
 
 h2 {
     color: #000000;
-    font-size: 32px;
+    font-size: 1.4em;
     border-bottom: 2px solid #444;
 }
 
@@ -47,29 +47,32 @@ li a:hover {
 /*a:visited {
     color: #d8b7a8;
 }*/
-
+header {
+    position: relative;
+    padding: 1.5em;
+}
 #hg_box1 {
     justify-self: center;
     align-self: center;
     text-align: center;
-    margin-right: 200px;
-    padding: 1em;
+    width: 75%;
+    display: inline-block;
 }
 
 #hg_box2 {
     border-radius: 25px;
     box-shadow: 0px 0px 25px #444444;
     float: right;
-    margin-right: 1em;
-    margin-top: -10.5em;
+    max-width: 34vw;
+    height: auto;
 }
 
 footer {
     color: #e8eadf;
     margin-top: 2em;
     margin-bottom: 2em;
-    padding-top: 1em;
-    padding-bottom: 2em;
+    padding-top: .2em;
+    padding-bottom: 1em;
 }
 
 footer a {
@@ -82,7 +85,7 @@ footer a:hover {
 
 #footer_grid_container {
     text-align: center;
-    line-height: .5em;
+    line-height: 1em;
 }
 
 #fg_box1 {
