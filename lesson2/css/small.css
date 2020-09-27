@@ -68,11 +68,16 @@ main p {
 }
 
 #mg_box1, #mg_box2, #mg_box3 {
+    margin: .2em;
     margin-top: 1em;
     padding: 1em;
     border-style: solid;
     border-radius: 25px;
     border-color: #47178c;
+}
+
+img {
+    max-width: 13em;
 }
 
 footer {
