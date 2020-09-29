@@ -1,0 +1,6 @@
+@media only screen and (min-width: 41em) {
+    li {
+        display: inline;
+        margin: .3em;
+    }
+}
