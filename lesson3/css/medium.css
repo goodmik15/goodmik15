@@ -1,6 +1,11 @@
 @media only screen and (min-width: 41em) {
+ 
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
     li {
-        display: inline;
         margin: .3em;
     }
 }
