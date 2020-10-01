@@ -38,15 +38,15 @@ h2 {
 
 li a {
     color: #4d40a3;
+    text-decoration: none;
+    line-height: 1.5em;
+    margin: .1em;
 }
 
 li a:hover {
     color: #9ca7c3;
 }
 
-/*a:visited {
-    color: #d8b7a8;
-}*/
 header {
     position: relative;
     padding: 1.5em;
