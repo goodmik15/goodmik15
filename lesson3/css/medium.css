@@ -6,6 +6,6 @@
     }
 
     li {
-        margin: .3em;
+        flex: 1 1 100%;
     }
 }
