@@ -86,6 +86,42 @@ li a:hover {
     padding: .5em;
 }
 
+table {
+    width: 100%;
+    border: 1em;
+}
+
+table tr td {
+    height: 4em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.primarycolor {
+    background-color: #058fb6;
+    color: #fbfbfa;
+}
+
+.secondarycolor {
+    background-color: #a2e4e1;
+    color: #44444;
+}
+
+.accent1color {
+    background-color: #fbfbfa;
+    color: #44444;
+}
+
+.accent2color {
+    background-color: #449c9a;
+    color: #fbfbfa;
+}
+
+.contrastcolor {
+    background-color: #843d4f;
+    color: #fbfbfa;
+}
+
 footer {
     color: #e8eadf;
     margin-top: 2em;
