@@ -13,9 +13,31 @@
         float: right;
         margin-top: -11.5em;
         padding: 1em;
+        overflow: auto;
     }
 
     #sitelogo {
         max-width: 50%;
+        float: right;
+    }
+
+    #jacobimg {
+        float: left;
+        margin: 1em;
+        margin-right: 3em;
+    }
+
+    #jacob {
+        overflow: auto;
+    }
+
+    #hannahimg {
+        float: left;
+        margin: 1em;
+        margin-right: 3em;
+    }
+
+    #hannah {
+        overflow: auto;
     }
 }
