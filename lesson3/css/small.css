@@ -74,6 +74,11 @@ li a:hover {
     color: #e8eadf;
 }
 
+#sitelogo {
+    background-color: #058fb6;
+    border-radius: 25px;
+}
+
 footer {
     color: #e8eadf;
     margin-top: 2em;
