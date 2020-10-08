@@ -16,29 +16,35 @@
     <header>
         <div id="banner">
             <img id="sitelogo" src="images/logo.png" alt="white sun with blue clouds">
-            <span id="banner_text">
+            <section id="banner_text">
                 <h1>A Little Weathered</h1>
-                <h2>Serving the small towns of Southeast Idaho</h2>
-            </span>
+                <p>Serving the small towns of Southeast Idaho</p>
+            </section>
         </div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Preston</a></li>
-                <li><a href="index.html">Soda Springs</a></li>
-                <li><a href="index.html">Fish Haven</a></li>
-                <li><a href="index.html">Storm Center</a></li>
-                <li><a href="index.html">Gallery</a></li>
+            <ul class="navigation">
+                <li><a class="ham" href="#">Menu</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="#">Gallery</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <h2>Preston, Idaho</h2>
-        <p>Image Box</p>
-        <h3>Weather Summary Box</h3>
-        <h3>Five Day Forecast Box</h3>
-        <h4>Article Box</h4>
+        <div id="hero"></div>
+            <p>Image Box</p>
+            <h3>Weather Summary Box</h3>
+        <div id="forecast">
+            <h3>Five Day Forecast Box</h3>
+        </div>
+        <div id="article">
+            <h4>Article Box</h4>
+        </div>
         <p>Image Box</p>
     </main>
 
@@ -59,6 +65,7 @@
             </div>
         </div>
     </footer>
+    <script src="js/hamburger.js"></script>
     <script src="../js/lastModified.js"></script>
     <script src="../js/getFullYear.js"></script>
 
