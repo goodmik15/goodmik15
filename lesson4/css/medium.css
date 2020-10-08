@@ -9,7 +9,7 @@
         flex: 1 1 auto;
     }
 
-    .navigation li:first-child {
+    button {
         display: none;
     }
 }
