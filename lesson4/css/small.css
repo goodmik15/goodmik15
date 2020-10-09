@@ -65,6 +65,7 @@ nav ul {
     list-style: none;
     overflow: hidden;
     margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -87,11 +88,23 @@ nav ul li {
     display: block;
 }
 
-#hero, #forecast, #article {
+#hero_box, #forecast_box, #article_box {
     background-color: #dadbdc;
-    margin-top: .2em;
-    padding: .5em;
-    text-align: center;
+    margin-bottom: .2em;
+}
+
+#town_box {
+    border-bottom: 2px solid #444444;
+}
+
+#town {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#hero, #forecast, #article {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
 }
 
 footer {
@@ -111,14 +124,16 @@ footer a {
 }
 
 #contact {
-    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 #footer_bar {
     background-color: #5f4d7b;
     text-align: center;
     color: #FBFBFA;
-    padding: .5em;
+    padding-top: .5em;
+    padding-bottom: 1.5em;
 }
 
 #footer_bar a {
@@ -130,7 +145,7 @@ footer a {
     color: #FBFBFA;
 }
 
-main, #contact {
+#town, #hero, #forecast, #article, #contact, #footer_bar {
     padding-left: 3em;
     padding-right: 3em;
 }

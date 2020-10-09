@@ -1,6 +1,6 @@
 @media only screen and (min-width: 72em) {
 
-    nav, main, #contact {
+    nav, #town, #hero, #forecast, #article, #contact, #footer_bar {
         padding-left: 15em;
         padding-right: 15em;
     }
