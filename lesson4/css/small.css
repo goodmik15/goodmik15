@@ -100,6 +100,7 @@ nav ul li {
 #town {
     padding-top: .5em;
     padding-bottom: .5em;
+    padding-left: 2.25em;
 }
 
 #hero, #forecast, #article {
@@ -145,7 +146,7 @@ footer a {
     color: #FBFBFA;
 }
 
-#town, #hero, #forecast, #article, #contact, #footer_bar {
+#hero, #forecast, #article, #contact, #footer_bar {
     padding-left: 3em;
     padding-right: 3em;
 }

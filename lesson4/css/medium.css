@@ -1,8 +1,12 @@
 @media only screen and (min-width: 52em) {
 
-    nav, #town, #hero, #forecast, #article, #contact, #footer_bar {
+    nav, #hero, #forecast, #article, #contact, #footer_bar {
         padding-left: 8em;
         padding-right: 8em;
+    }
+
+    #town {
+        padding-left: 6.25em;
     }
     
     .navigation {
