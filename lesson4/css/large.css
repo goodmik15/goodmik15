@@ -1,3 +1,8 @@
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 72em) {
+
+    nav, main, #contact {
+        padding-left: 15em;
+        padding-right: 15em;
+    }
 
 }

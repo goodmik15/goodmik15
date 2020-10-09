@@ -6,13 +6,12 @@ html {
 
 header,
 footer {
-    background-color: #A2E4E1;
+    background-color: #5993a3;
 }
 
 body {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    margin: 0 auto;
     color: #444444;
 }
 
@@ -21,20 +20,12 @@ h2 {
     font-family: 'Bree Serif', serif;
 }
 
-header {
-    margin: 0;
-}
-
 #banner {
-    background-color: #058FB6;
+    background-color: #5f4d7b;
     padding: .5em;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#banner_text {
-    padding-left: 1em;
 }
 
 header h1,
@@ -49,33 +40,31 @@ header p {
 }
 
 header img {
-    max-width: 25%;
+    max-width: 6em;
     padding: 1em;
 }
 
 #hamburger{
-    background-color:#A2E4E1;
+    background-color:#5993a3;
     color: #FBFBFA;
-    text-shadow: 0px 0px 5px #BBBBBB;
-    border: none;
+    border-color: #FBFBFA;
+    border-width: .1em;
+    border-radius: 5px;
     font-weight: 600;
     font-size: 30px;
-    padding: .2em;
+    padding: .3em;
     margin-right: .5em;
-    border-radius: 5px;
+    margin-left: .5em;
 }
 
 nav {
-    background-color: #A2E4E1;
-    margin-top: -1.5em;
-    
+    background-color: #5993a3;
 }
 
 nav ul {
     list-style: none;
     overflow: hidden;
     margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -91,31 +80,26 @@ nav ul li {
     text-decoration: none;
     font-family: 'Bree Serif', serif;
     font-size: larger;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 10px #9F9F9F;
+    color: #fbfbfa;
 }
 
 .responsive li {
     display: block;
 }
 
-main {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 1em;
+#hero, #forecast, #article {
+    background-color: #dadbdc;
+    margin-top: .2em;
+    padding: .5em;
+    text-align: center;
 }
 
 footer {
-    color: #e8eadf;
+    color: #FBFBFA;
     margin-top: 2em;
     margin-bottom: 2em;
-    padding-top: .2em;
-    padding-bottom: 1em;
-}
-
-footer {
-    color: #444444;
     padding: 0;
+    padding-top: .2em;
 }
 
 footer a {
@@ -131,7 +115,7 @@ footer a {
 }
 
 #footer_bar {
-    background-color: #058FB6;
+    background-color: #5f4d7b;
     text-align: center;
     color: #FBFBFA;
     padding: .5em;
@@ -144,4 +128,9 @@ footer a {
 #fg_box1 {
     font-size: .9em;
     color: #FBFBFA;
+}
+
+main, #contact {
+    padding-left: 3em;
+    padding-right: 3em;
 }
