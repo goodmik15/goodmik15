@@ -1,0 +1,24 @@
+@media only screen and (min-width: 52em) {
+
+    nav, #hero, #forecast, #article, #contact, #footer_bar {
+        padding-left: 8em;
+        padding-right: 8em;
+    }
+
+    #town {
+        padding-left: 6.25em;
+    }
+    
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+
+    button {
+        display: none;
+    }
+}
