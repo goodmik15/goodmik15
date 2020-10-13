@@ -88,9 +88,58 @@ nav ul li {
     display: block;
 }
 
-#hero_box, #forecast_box, #article_box {
+#forecast_box, #article_box {
     background-color: #dadbdc;
     margin-bottom: .2em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#hero_box {
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    max-width: 960px;
+}
+
+#hero_box img {
+    width: 100%;
+}
+
+#weather_summary {
+    position: absolute;
+    background-color: rgba(95, 77, 123, 0.85);
+    box-shadow: 0px 0px 25px #444444;
+    top: 25px;
+    left: 25px;
+}
+
+#ws {
+    padding-top: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: #FBFBFA;
+    text-decoration: underline;
+}
+
+table {
+    width: 90%;
+    border: 1em;
+    padding-bottom: 2em;
+}
+
+table tr td {
+    height: 1.5em;
+    color: #FBFBFA;
+}
+
+td {
+    text-align: left;
+}
+
+td:first-child {
+    text-align: right;
+    font-weight: bold;
 }
 
 #town_box {
@@ -103,7 +152,7 @@ nav ul li {
     padding-left: 2.25em;
 }
 
-#hero, #forecast, #article {
+#forecast, #article {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
@@ -144,9 +193,4 @@ footer a {
 #fg_box1 {
     font-size: .9em;
     color: #FBFBFA;
-}
-
-#hero, #forecast, #article, #contact, #footer_bar {
-    padding-left: 3em;
-    padding-right: 3em;
 }
