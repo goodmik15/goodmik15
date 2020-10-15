@@ -162,6 +162,10 @@ td:first-child {
 
 #town {
     padding-left: 2.25em;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: .96em;
+    padding-bottom: .96em;
 }
 
 .forecast_head {
@@ -208,14 +212,38 @@ td:first-child {
 }
 
 #article_box {
-    background-color: #dadbdc;
+    background-color: #5f4d7b;
+    color: #ffffff;
     max-width: 960px;
-    margin: 0 auto;
+    margin: 1.2em auto;
+    overflow: hidden;
+    border-top: 1px solid #444444;
+    border-bottom: 1px solid #444444;
 }
 
-#article {
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+#article_content {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+#article_content a {
+    color: #ffffff;
+}
+
+#article_author {
+    font-size: .9em;
+    padding-left: 1em;
+}
+
+#article_img {
+    max-width: 100%;
+    height: auto;
+    border-top: 1px solid #444444;
+}
+
+#clear {
+    clear: both;
 }
 
 footer {
@@ -236,6 +264,8 @@ footer a {
 
 #contact {
     padding: 1em;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
 #footer_bar {

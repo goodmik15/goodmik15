@@ -1,12 +1,9 @@
 @media only screen and (min-width: 45.45em) {
 
-    .navigation, #town, #contact {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-    
     .navigation {
         display: flex;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
     .navigation li {
@@ -16,11 +13,6 @@
 
     button {
         display: none;
-    }
-
-    #town {
-        padding-top: .96em;
-        padding-bottom: .96em;
     }
 
     #hero_box img {
@@ -42,5 +34,15 @@
 
     table {
         width: 90%;
+    }
+
+    #article {
+        display: flex;
+    }
+
+    #article_img {
+        max-width: 40vw;
+        height: auto;
+        float: right;
     }
 }
