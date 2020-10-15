@@ -23,9 +23,15 @@
         padding-bottom: .96em;
     }
 
+    #hero_box img {
+        margin-bottom: 0;
+    }
+
     #weather_summary {
         position: absolute;
+        background-color: rgba(95, 77, 123, 0.85);
         box-shadow: 0px 0px 25px #444444;
+        border: none;
     }
 
     #ws {
