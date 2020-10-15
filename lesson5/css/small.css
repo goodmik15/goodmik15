@@ -215,7 +215,7 @@ td:first-child {
     background-color: #5f4d7b;
     color: #ffffff;
     max-width: 960px;
-    margin: 1.2em auto;
+    margin: 1.2em auto 0;
     overflow: hidden;
     border-top: 1px solid #444444;
     border-bottom: 1px solid #444444;
@@ -249,13 +249,17 @@ td:first-child {
 footer {
     background-color: #43707c;
     color: #ffffff;
-    margin-top: 2em;
+    margin-top: 1.2em;
     padding: 0;
     padding-top: .2em;
 }
 
 footer a {
     color: #444444;
+}
+
+footer h4 {
+    font-style: bold;
 }
 
 #footer_grid_container {
@@ -266,6 +270,21 @@ footer a {
     padding: 1em;
     max-width: 960px;
     margin: 0 auto;
+}
+
+#contact p {
+    padding-left: 1em;
+}
+
+#contact_img {
+    max-width: 100%;
+    height: auto;
+}
+
+.social {
+    padding: .5em;
+    max-width: 10vw;
+    height: auto;
 }
 
 #footer_bar {
