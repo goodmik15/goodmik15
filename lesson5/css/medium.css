@@ -53,6 +53,15 @@
         margin: 0 auto;
     }
 
+    #contact {
+        margin-left: 0;
+    }
+
+    .social {
+        max-width: 50px;
+        height: auto;
+    }
+
     #contact_img {
         max-width: 40vw;
         height: auto;
