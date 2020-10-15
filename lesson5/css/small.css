@@ -59,6 +59,7 @@ header img {
 
 nav {
     background-color: #5993a3;
+    text-align: center;
 }
 
 nav ul {
@@ -68,20 +69,22 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    padding: 1em;
-    text-align: center;
-}
-
 .navigation li {
     display: none;
 }
 
 .navigation a {
+    display: block;
     text-decoration: none;
     font-family: 'Bree Serif', serif;
     font-size: larger;
     color: #fbfbfa;
+    padding: 1em;
+}
+
+.navigation a:hover {
+    color: #5993a3;
+    background-color: #A2E4E1;
 }
 
 .responsive li {
