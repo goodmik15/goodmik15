@@ -1,12 +1,8 @@
-@media only screen and (min-width: 52em) {
+@media only screen and (min-width: 43.6em) {
 
-    nav, #contact, #footer_bar {
-        padding-left: 8em;
-        padding-right: 8em;
-    }
-
-    #town {
-        padding-left: 6.25em;
+    .navigation, #town, #contact {
+        max-width: 960px;
+        margin: 0 auto;
     }
     
     .navigation {
@@ -20,5 +16,25 @@
 
     button {
         display: none;
+    }
+
+    #town {
+        padding-top: .96em;
+        padding-bottom: .96em;
+    }
+
+    #weather_summary {
+        position: absolute;
+        box-shadow: 0px 0px 25px #444444;
+    }
+
+    #ws {
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: .5em;
+    }
+
+    table {
+        width: 90%;
     }
 }
