@@ -95,12 +95,16 @@ nav ul {
     text-decoration: none;
     font-family: 'Bree Serif', serif;
     font-size: larger;
-    color: #fbfbfa;
+    color: #ffffff;
     padding: 1em;
 }
 
+.active {
+    text-decoration: underline;
+}
+
 .navigation a:hover {
-    color: #5993a3;
+    color: #43707c;
     background-color: #A2E4E1;
 }
 
@@ -135,7 +139,7 @@ nav ul {
 }
 
 #ws {
-    padding-top: 1.5em;
+    padding-top: 1em;
     text-align: center;
     color: #FBFBFA;
     text-decoration: underline;
@@ -171,7 +175,48 @@ td:first-child {
     padding-left: 2.25em;
 }
 
-#forecast, #article {
+.forecast_head {
+    text-align: center;
+}
+
+#forecast_box {
+    display: flex;
+    flex-flow: wrap;
+    border-right: 1px solid #444444;
+}
+
+.forecast {
+    flex: 1 1 auto;
+    color: #ffffff;
+    background-color: #5993a3;
+    border-bottom: 1px solid #444444;
+    text-align: center;
+    border-left: 1px solid #444444;
+}
+
+.forecast_day {
+    display: block;
+    color: #43707c;
+    background-color: #A2E4E1;
+    border-top: 1px solid #444444;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.forecast_icon {
+    border-radius: 100px;
+    padding: .25rem;
+    max-width: 10vw;
+    height: auto;
+}
+
+.forecast_temp {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: .9rem;
+}
+
+#article {
     padding-top: 1.5em;
     padding-bottom: 1.5em;
 }
