@@ -20,6 +20,21 @@ h2 {
     font-family: 'Bree Serif', serif;
 }
 
+.message {
+    display: none;
+    padding: 1em;
+    border: 1px solid #444444;
+    background-color: #5993a3;
+    color: #ffffff;
+}
+
+.message p {
+    max-width: 960px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin: 0 auto;
+}
+
 #banner {
     background-color: #5f4d7b;
     padding: .5em;
@@ -164,7 +179,6 @@ td:first-child {
 footer {
     color: #FBFBFA;
     margin-top: 2em;
-    margin-bottom: 2em;
     padding: 0;
     padding-top: .2em;
 }
